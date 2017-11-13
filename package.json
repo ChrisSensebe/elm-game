@@ -3,11 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "api": "node api.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --port 3000"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.12.1"
+    "ace-css": "^1.1.0",
+    "css-loader": "^0.28.7",
+    "elm-webpack-loader": "^4.4.0",
+    "file-loader": "^0.11.2",
+    "font-awesome": "^4.7.0",
+    "json-server": "^0.12.1",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^1.15.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^1.16.5"
   }
 }
